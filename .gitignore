@@ -1,0 +1,33 @@
+# Python / Django
+__pycache__/
+*.py[cod]
+*.egg-info/
+backend/venv/
+venv/
+.env
+.env.local
+.env.production
+*.sqlite3
+db.sqlite3
+backend/media/
+backend/staticfiles/
+
+# Secrets / kalitlar
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+
+# Node / React
+node_modules/
+frontend/dist/
+frontend/.vite/
+npm-debug.log*
+yarn-error.log*
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
